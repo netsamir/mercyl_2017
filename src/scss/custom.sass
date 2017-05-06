@@ -23,14 +23,23 @@
 //  max-width: 1280px
  // max-height: 720px
 
+#marketing
+  position: relative
+  & h1
+    font-family: $open-sans
+
 #banner
   width: 100%
   height: auto
   margin: 0 auto
 
-#marketing
-  & h1
-    font-family: $open-sans
+.whatwedo
+  position: absolute
+  top: 0
+  left: 0
+  bottom: 0
+  right: 0
+  border: 1px black solid
 
 @include media-breakpoint-down(md)
   #marketing .h1
