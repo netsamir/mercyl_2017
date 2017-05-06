@@ -1,0 +1,27 @@
+{
+  "name": "mercyl.com.uy",
+  "description": "Mercyl.com.uy",
+  "main": "gulpfile.js",
+  "authors": [
+    "Samir Sadek"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "gulp",
+    "bootstrap",
+    "pug",
+    "sass"
+  ],
+  "homepage": "www.mercyl.com.uy",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bootstrap": "v4-dev"
+  }
+}

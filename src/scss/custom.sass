@@ -1,0 +1,72 @@
+// Variables
+@import "theme"
+
+// Colors
+.bg-faded
+  background-color: white
+
+.bg-brand-color
+  background-color: $cst-brand-color
+  color: white
+
+.bg-brand-color-light
+  background-color: $cst-brand-color-light
+
+.bg-secondary-color
+  background-color: $cst-secondary-color
+
+.bg-primary-dark
+  background-color: $cst-primary-dark
+
+// Sections
+
+// home/background-info
+#marketing img
+  position: relative
+  width: 100%
+  height: auto
+// width: 1280px
+// height: 720px
+
+.wrap-message
+  position: relative
+  color: white
+
+.message
+  position: absolute
+  top: 12%
+  left: 12%
+
+.origin
+  position: absolute
+  top: 52%
+  left: 12%
+
+.jumbotron
+  padding: 0
+  background-color: transparent
+  & h1
+    font-family: $open-sans
+
+@include media-breakpoint-down(md)
+  .jumbotron .h1
+    font-size: 16px
+
+// home/marketing
+
+#background-info
+  margin: 0
+  color: $cst-primary-dark
+  font-width: 700
+  font-size: 18px
+
+// home/mission
+section#mission .card
+  width: 300px
+
+section#showvideo
+  background-color: black
+
+//
+section#inventory img
+  height: 400px

@@ -1,0 +1,45 @@
+{
+  "name": "mercyl.com.uy",
+  "version": "1.0.0",
+  "description": "Mercyl.com.uy",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "keywords": [
+    "gulp",
+    "bootstrap",
+    "pug",
+    "sass"
+  ],
+  "author": "Samir Sadek",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^6.7.7",
+    "browser-sync": "^2.18.8",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-imagemin": "^3.2.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-postcss": "^6.4.0",
+    "gulp-pug": "^3.3.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.0",
+    "gulp-uglify": "^2.1.2",
+    "gulp-watch": "^4.3.11",
+    "mq4-hover-shim": "^0.3.0",
+    "postcss-flexbugs-fixes": "^2.1.1",
+    "rimraf": "^2.6.1",
+    "vinyl-paths": "^2.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/netsamir/mercyl_2017.git"
+  },
+  "bugs": {
+    "url": "https://github.com/netsamir/mercyl_2017/issues"
+  },
+  "homepage": "https://github.com/netsamir/mercyl_2017#readme"
+}
