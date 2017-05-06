@@ -25,8 +25,9 @@
 
 #marketing
   position: relative
+  color: white
   & h1
-    font-family: $open-sans
+    font-family: $cst-display-1
 
 #banner
   width: 100%
@@ -36,14 +37,17 @@
 .whatwedo
   position: absolute
   top: 0
-  left: 0
-  bottom: 0
-  right: 0
+  left: 20px
+  right: auto
+  text-align: left
   border: 1px black solid
 
-@include media-breakpoint-down(md)
-  #marketing .h1
-    font-size: 16px
+@include media-breakpoint-down(xs)
+  #marketing
+    & h1
+      font-size: 16px
+    & p
+      font-size: 12px
 
 // home/marketing
 

@@ -11,16 +11,17 @@ $cst-primary-light-color: #586062;
 
 // Fonts
 
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:800|Gruppo|Raleway|Abril+Fatface|Alegreya+Sans+SC:700');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Open+Sans:800|Gruppo|Raleway|Abril+Fatface|Alegreya+Sans+SC:700');
 
 $raleway: 'Raleway', sans-serif;
 $gruppo: 'Gruppo', cursive;
 $abril: 'Abril Fatface', cursive;
 $alegreya: 'Alegreya Sans SC', sans-serif;
 $open-sans: 'Open Sans', sans-serif;
+$roboto: 'Roboto Slab', serif;
 
 $font-family-base: $raleway;
-$cst-display-1: $open-sans;
+$cst-display-1: $roboto;
 
 // Buttons
 
