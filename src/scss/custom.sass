@@ -19,37 +19,29 @@
   background-color: $cst-primary-dark
 
 // Sections
-
-// home/background-info
-#marketing img
+section#marketing
+  background: #1d5a87 url(../img/banner-6.jpg) no-repeat 0 0
+  background-size: cover
+  text-align: center
+  padding-top: 100px
   position: relative
-  width: 100%
-  height: auto
-// width: 1280px
-// height: 720px
+  color: #fff
+  background-repeat: no-repeat
+  background-position: center
+  background-attachment: scroll
+  background-position: 50% 50%
+  content: ""
+  z-index: 0
+//  max-width: 1280px
+ // max-height: 720px
 
-.wrap-message
-  position: relative
-  color: white
 
-.message
-  position: absolute
-  top: 12%
-  left: 12%
-
-.origin
-  position: absolute
-  top: 52%
-  left: 12%
-
-.jumbotron
-  padding: 0
-  background-color: transparent
+#marketing
   & h1
     font-family: $open-sans
 
 @include media-breakpoint-down(md)
-  .jumbotron .h1
+  #marketing .h1
     font-size: 16px
 
 // home/marketing
