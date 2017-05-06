@@ -2,22 +2,10 @@ extends _layout
 
 block main
   section#marketing
-    .container
-      .row
-        .col-md-10.col-sm-12.col-xs-12.col-md-offset-1
-          .cta
-            .copy-title
-              h1 Capture your online learning
-            .copy-desc
-              p Want to document your online learning experiences? We've got that.
-              p
-                | EnGrip lets you capture your online learning and create a record of learning experiences that truly showcase your expertise.
-            p.sign_up
-              a(href='/access/show_signup') Sign Up - It's free.
-            .play-video
-              p.watch_video(data-toggle='modal', data-target='#intro_video_modal') Watch video to learn more >>
-              i.fa.fa-play-circle-o(aria-hidden='true', data-toggle='modal', data-target='#intro_video_modal')
-              // Introduction Video Modal
+    .container-fluid.p-0.m-0
+      .col-xs-12.m-0.p-0
+        img#banner(src='img/banner-6.jpg')
+
 
   section#background-info
     .container-fluid
