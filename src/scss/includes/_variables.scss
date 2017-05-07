@@ -11,7 +11,7 @@ $cst-primary-light-color: #586062;
 
 // Fonts
 
-@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Open+Sans:800|Gruppo|Raleway|Abril+Fatface|Alegreya+Sans+SC:700');
+@import url('https://fonts.googleapis.com/css?family=Barrio|Bungee+Inline|Bungee+Shade|Ewert|Press+Start+2P|Revalia|Rye|Monoton|Roboto+Slab:400,700|Open+Sans:800|Gruppo|Raleway|Abril+Fatface|Alegreya+Sans+SC:700');
 
 $raleway: 'Raleway', sans-serif;
 $gruppo: 'Gruppo', cursive;
@@ -19,9 +19,18 @@ $abril: 'Abril Fatface', cursive;
 $alegreya: 'Alegreya Sans SC', sans-serif;
 $open-sans: 'Open Sans', sans-serif;
 $roboto: 'Roboto Slab', serif;
+$monoton: 'Monoton', cursive;
+$pp: 'Press Start 2P', cursive;
+$revalia: 'Revalia', cursive;
+$barrio: 'Barrio', cursive;
+$bungee1: 'Bungee Inline', cursive;
+$bungee2: 'Bungee Shade', cursive;
+$ewert: 'Ewert', cursive;
+$rye: 'Rye', cursive;
 
 $font-family-base: $raleway;
-$cst-display-1: $roboto;
+// $cst-display-1: $roboto;
+$cst-display-1: $barrio;
 
 // Buttons
 
